@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--Metadatos-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mirta Duré">
+    <meta name="keyword" content="Profesora, Lengua, Literatura, Secundario">
+    
+    <!--Titulo-->
+    <title>Proyecto final: CV</title>
+    <!--Favicon-->
+    <link rel="icon" type="image/icon" href="images/book.svg">
+    <!--CSS-->
+    <link rel="Stylesheet" type="text/css" href="styles.css">
+    <!--JS-->
+    <link rel="Scriptsheet"type="script/js" href="vinculado.js">
+
+    <!-- Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,300;1,400&family=Tilt+Neon&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200&family=Shantell+Sans:ital,wght@1,300;1,400&family=Tilt+Neon&display=swap" rel="stylesheet">
+    
+    <!-- Flexbox-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" integrity="sha512-AC/69ewcGQ8mbn5w+M23RmfeSSjNGaDmJOFt3nsqV//LZ9hok7V/dCZHtNTdU8v6Uzjx/HmC6kOQ2b8v6NHL3Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" integrity="sha512-DdMFscvSXJhG+B8UZJmU4K4JvMgWmz8jBh+q3yqihk/Pv0pWnx0fZd5zJF5M+sj5z33oAM6QOaSbKx6xv8OYYA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" integrity="..." crossorigin="anonymous">
+     
+</head>
+
+<body>
+    <script src="vinculado.js"></script>
+
+    <!--Presentación/ encabezado-->
+    <header>
+        
+        <h1>Violeta Ramos</h1>
+        <h2>Profesora de Lengua y Literatura</h2>
+        
+    </header>
+
+    <!--Barra de navegacion-->
+    <nav>
+        
+        <a id= "Perfil" href="Perfil" class="nav-enlace">Perfil</a>
+        <a id= "Habilidades e idiomas" href="Habilidades e idiomas" class="nav-enlace">Habilidades e idiomas</a>
+        <a id= "Experiencia"href= "Experiencia" class="nav-enlace">Experiencia</a>
+        <a id= "Datos Académicos"href="Datos Académicos" class="nav-enlace">Datos Académicos</a>
+        <a id= "Voluntariado" href="Voluntariado" class="nav-enlace">Voluntariado</a>
+        <a id= "Contacto" href="Contacto" class="nav-enlace">Contacto</a>
+    </nav>   
+
+    <!-- Contenido principal en dos columnas -->
+
+    <main class="container">
+        <div class="row"></div>
+           <div id="column1">
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" href= "#tab1">Experiencia Laboral</a></li>
+                <li class="nav-item">
+                    <a class="nav-link" href= "#tab2">Formación Académica</a></li>
+                <li class="nav-item">
+                    <a class="nav-link" href= "#tab3">Voluntariado</a></li>
+                <li class="nav-item">
+                    <a class="nav-link" href= "#tab4">Habilidades e Idiomas</a></li>
+                
+            </ul>
+            
+            <div class="tab-content">
+                <div id="tab1" class="tab-pane-active">
+                <h2>Experiencia Laboral</h2>
+                <ul>
+                    <li>Escuela Normal No.1 Quilmes</li>
+                        <p>Enseño <strong>Lengua y Literatura</strong> a estudiantes de primero a tercer año y asisto en tutorias del Departamento de Lenguas. </p>
+                    <li>Instituto Superior de Wilde</li>
+                        <p>Enseño <strong>Lengua y Literatura</strong> a estudiantes de segundo y tercer año.</p>
+                    <li>Centro Cultural de mi Barrio</li>
+                        <p>Doy <strong>talleres</strong> de "Escritura creativa", de "Poesía clásica y moderna" y de "Lectura crítica" sobre cuentos y novelas.</p>   
+                    </ul>
+                </div>
+
+                <div id="tab2" class="tab-pane">
+                <h2>Formación académica</h2>
+                <ul>
+                    <li>Instituto Superior "Joaquín V. González"</li>
+                        <p>Profesorado Superior en Lengua y Literatura</p>
+                    <li>Escuela de Docentes de Buenos Aires</li>
+                        <p>Psicología para la enseñanza en niños y adolescentes</p>
+                </ul>
+                </div>
+
+                <div id="tab3" class="tab-pane">
+                    <h2>Voluntariado</h2>
+                    <ul>
+                        <li>Sociedad de Fomento Villa Luján</li>
+                        <p>Brindo clases de apoyo sobre gramática y comprensión de textos para niños de escuelas primarias.</p>
+                        <li>ONG Gatos y Perros del barrio</li>
+                        <P>Colaboro en la tarea de difundir y concientizar sobre el cuidado de gatos y perros. Colaboro también con el tránsito de gatos a un hogar responsable, amoroso y seguro.</p>
+                    </ul>
+                </div>
+                <div id="tab4" class="tab-pane">
+                    <h2>Habilidades</h2>
+                <ul class=>
+                    <li>Gestión de aula</li>
+                    <li>Planificación creativa de clases</li>
+                    <li>Sentido de observación y orientación a los detalles</li>
+                    <li>Excelente comunicación con alumnos y padres</li>
+                    <li>Compromiso con la enseñanza de Lengua y Literatura</li>
+                </ul>
+    
+                <h2>Idiomas</h2>
+                    <ul>
+                        <li>Español: Nativo</li>
+                        <li>Inglés: Avanzado</li>
+                        <li>Francés: Básico</li>
+                    </ul> 
+                </div>  
+                </div>
+            </div>
+        </div>
+        
+
+            <div id="column2">
+                <div class="card" style="width: 18rem;">
+                
+                    <div class="card-body">
+                        <div class="d-flex">
+                        <img src="https://randomuser.me/api/portraits/women/26.jpg" alt="Violeta Ramos" class= "border border-border-3 rounded-circle">
+                        </div>
+                        <h5 class="card-title">Perfil</h5>
+                        <h6>Violeta Ramos</h6>
+                        <p class="card-text">Soy profesora de Lengua y Literatura del nivel secundario. Cuento con amplia experiencia en escuelas estatales y privadas desde hace 10 años. Incentivo la práctica de la lectura y la escritura en mis alumnos, así como el compromiso con la materia y sus estudios.</p>
+                        <a href="#" class="btn btn-primary">Experiencia</a>
+                    </div>
+                </div> 
+            
+           </div>  
+
+    </main>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js" integrity="sha512-DwV7x/2vLO8ogJ+Z9cLMCt7qrFz66JNt7uMOrcl1w7VQxQQ2Ccf7VYkZ9q3Zt1qnBya8/s7V1TcTzkI7gP96Bw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+         
+</body>
+
+<!--Datos de contacto y formulario-->
+
+<footer class="Container-fluid">
+        <div class="row">
+            <div class="column1">
+                <h3>Contacto</h3>
+            
+                <p>Correo: violeta.ramos@correo.com</p>
+
+                <p>Diección: Av. Las Palmas 33</p>
+                <i class="bi bi-phone"></i>
+                <p>Teléfono: 15.123.7890</p>
+            
+            </div>
+            
+        </div>
+        
+        <div class="column2">
+            <p>Deje sus datos para que me comunique con usted</p>
+                <form>
+                    <form action="getform.php" method="get">
+                        <label>Nombre: <input type="text"></label><br>
+                        <label>Apellido: <input type="text"></label><br>
+                        <label>E-mail     : <input type="email"></label><br>
+                        <input type="submit" value="Enviar">
+                    </form>
+
+                </form>
+        </div>
+</footer>
+
+</html>

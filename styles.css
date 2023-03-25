@@ -1,0 +1,194 @@
+/* 
+   Archivo: estilos.css
+   Descripción: Archivo principal de estilos para el Curriculum Vitae
+*/
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+  
+  /* Variables */
+  :root {
+    --color-principal: #c3680f;
+    --color-secundario: #110114;
+    --color-terciario: #2c5e65;
+    }
+
+  :root {
+      scroll-behavior: smooth;
+    }
+  
+  /* Estilos generales */
+  *p, li, ul {
+    font-family: 'Roboto Slab', serif;
+    color: whitesmoke;
+    } 
+  
+  h1 {
+    font-family: 'Shantell Sans', cursive;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    }
+  
+  *h2,h3 {
+    font-family: 'Tilt Neon', cursive;
+    text-align: center;
+    color: whitesmoke;
+    margin: 0;
+    padding: 5px;
+    }
+   
+  a {
+    cursor: pointer;
+  }  
+
+  /* Encabezado*/
+
+     header { 
+      background-color: var(--color-terciario);
+      color: lavender;
+      width: 100%;
+      height: 250px;
+      margin: 0px;
+      padding:20px;
+      }
+
+  /* Barra de navegacion*/
+
+     .nav-enlace {
+         display: inline-block;
+         background: #3d746f;
+         color: aquamarine;
+         padding: 10px 30px;
+    }
+  
+    .nav-enlace:hover {
+          background: #a0b1a8;
+    }
+
+    .nav-enlace:active {
+        background: #d57d11;
+    }
+        
+    nav {
+          display: flex;
+          justify-content: space-around;
+          padding-top: 20px;
+          padding-right: 30px;
+          padding-bottom: 20px;
+          padding-left: 30px;
+          border-color: black;
+          background-color: lightslategray;
+    }
+
+    
+.container {
+    display: flex;
+}
+
+    /* columna izquierda */
+
+    #columna1 {
+        float: left;
+        width: 60%;
+        height: 700px;
+    }
+
+    .nav nav-tabs{
+      background-color: var(--color-principal);
+    }
+
+    .nav-tabs {
+        border-bottom: none;    
+    }
+    
+    .nav-tabs .nav-item {
+        margin-bottom: -1px;    
+    }
+
+    .nav-tabs .nav-link {
+        border: none
+        background-color; transparent:     
+    } 
+
+    .nav-tabs .nav-link:hover,
+    .nav-tabs .nav-link:focus {
+        border: none
+        background-color: #3d746f;   
+    } 
+
+    .nav-tabs .nav-link.active,
+    .nav-tabs .nav-link.active:hover,
+    .nav-tabs .nav-link.active:focus { 
+        border: none
+        background-color; 
+  
+    } 
+
+  /* columna derecha */
+
+  #columna2 {
+    float: left;
+    width: 40%;
+    height: 700px;
+    background-color: var(--color-secundario);
+    color: whitesmoke;
+}
+
+.card-body {
+  background-color: #600770;
+  color: whitesmoke;
+}
+
+
+
+  h2 {
+    padding: 5px;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 14px;
+    padding: 5px;
+    text-align: justify;
+   }
+  
+  li, ul{
+    font-size: 14px;
+  }
+   
+    img {
+        width:135px ;
+        height: 142px;
+        padding: 5px;
+       }
+ 
+  /* pie de página*/
+
+  footer {
+    background-color: var(--color-terciario);
+    color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+  }
+  .container-fluid {
+    display: flex;
+  }
+
+  .column1 {
+    float: left;
+    width: 50%;
+    height: auto;
+
+  }
+
+  .bi bi-phone {
+    width: 20px;
+    height: 20px;
+  }
+
+  
